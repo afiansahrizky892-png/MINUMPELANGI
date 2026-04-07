@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Air Minum Pelangi | CV Tirta Makmur</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#fff;
+color:#333;
+}
+
+:root{
+--pink:#FFC0CB;
+--dark:#333;
+--light:#fff;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 10%;
+background:white;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+nav a:hover{
+color:#FFC0CB;
+}
+
+/* HERO */
+
+.hero{
+height:85vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(#FFC0CB,#ffffff);
+padding:20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+max-width:650px;
+margin:auto;
+}
+
+/* SECTION */
+
+.section{
+padding:80px 10%;
+text-align:center;
+}
+
+.section h2{
+font-size:32px;
+margin-bottom:40px;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+/* CARD */
+
+.card{
+background:white;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+padding:20px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:contain;
+margin-bottom:15px;
+}
+
+.price{
+margin-top:10px;
+color:#130205;
+font-weight:bold;
+}
+
+/* BUTTON */
+
+.btn{
+margin-top:12px;
+display:inline-block;
+background:hsl(355, 84%, 49%);
+color:rgb(32, 7, 7);
+padding:8px 16px;
+border-radius:6px;
+text-decoration:none;
+font-size:14px;
+}
+
+.btn:hover{
+opacity:0.9;
+}
+
+/* SPEC BOX */
+
+.spec{
+display:none;
+margin-top:15px;
+text-align:left;
+font-size:14px;
+line-height:1.6;
+background:#f3f2f3;
+padding:12px;
+border-radius:6px;
+}
+
+/* CONTACT */
+
+.contact{
+background:#fafafa;
+padding:70px 10%;
+text-align:center;
+}
+
+.linktree{
+margin-top:15px;
+}
+
+.linktree a{
+background:#333;
+color:white;
+padding:10px 20px;
+border-radius:6px;
+text-decoration:none;
+}
+
+/* FOOTER */
+
+footer{
+background:#333;
+color:rgb(236, 17, 152);
+text-align:center;
+padding:25px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:14px 18px;
+border-radius:50px;
+text-decoration:none;
+}
+
+</style>
+
+<script>
+
+function toggleSpec(id){
+var x=document.getElementById(id);
+
+if(x.style.display==="block"){
+x.style.display="none";
+}else{
+x.style.display="block";
+}
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>Air Pelangi</h2>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#produk">Produk</a></li>
+<li><a href="#sewa">Sewa</a></li>
+<li><a href="#contact">Kontak</a></li>
+</ul>
+
+</nav>
+
+
+<section class="hero">
+
+<div>
+
+<h1>Air Mineral Pelangi Seperti Ibu Selalu Ada Untukmu</h1>
+
+<p>
+Diproduksi dari sumber air pegunungan berkualitas dan diproses secara higienis untuk memenuhi kebutuhan air minum sehari-hari keluarga Indonesia.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- PRODUK UTAMA -->
+
+<section id="produk" class="section">
+
+<h2>Produk Air Minum Pelangi</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="cup 120  ml new.jfif">
+<h3>Cup 120 ml</h3>
+<p>Isi 48 pcs</p>
+</div>
+
+<div class="card">
+<img src="cup 200 ml new.jfif">
+<h3>Cup 200 ml</h3>
+<p>Isi 48 pcs</p>
+</div>
+
+<div class="card">
+<img src="gemoy 220 ml new.jfif">
+<h3>Botol 220 ml</h3>
+<p>Isi 24 pcs</p>
+</div>
+
+<div class="card">
+<img src="botol 330 ml new.jfif">
+<h3>Botol 330 ml</h3>
+<p>Isi 24 pcs</p>
+</div>
+
+<div class="card">
+<img src="botol 500 ml new.jfif">
+<h3>Botol 500 ml</h3>
+<p>Isi 12 pcs</p>
+</div>
+
+<div class="card">
+<img src="botol 1500 ml new.jfif">
+<h3>Botol 1500 ml</h3>
+<p>Isi 12 pcs</p>
+</div>
+
+<div class="card">
+<img src="galon 19 l.jpg">
+<h3>Galon 19 Liter</h3>
+<p>Kapasitas besar untuk dispenser</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- LAYANAN SEWA -->
+
+<section id="sewa" class="section">
+
+<h2>Layanan Sewa Peralatan Event</h2>
+
+<p style="margin-bottom:40px">
+Kami juga menyediakan layanan sewa dispenser dan showcase untuk menunjang kebutuhan acara, kantor maupun kegiatan lainnya.
+</p>
+
+<div class="grid">
+
+
+<!-- DISPENSER -->
+
+<div class="card">
+
+<img src="shocase.webp">
+
+<h3>Water Dispenser Classic</h3>
+
+<div class="price">Sewa Dispenser</div>
+
+<a class="btn" onclick="toggleSpec('dispenserSpec')">
+Lihat Spesifikasi
+</a>
+
+<div id="dispenserSpec" class="spec">
+
+<b>Berat / Dimensi</b><br>
+19 kg / 955 x 320 x 325 mm<br><br>
+
+<b>Kapasitas Tangki Panas / Dingin</b><br>
+1,8 L / 3,4 L<br><br>
+
+<b>Suhu Air Panas</b><br>
+77 - 85 °C<br><br>
+
+<b>Suhu Air Dingin</b><br>
+4 - 12 °C<br><br>
+
+<b>Sumber Daya</b><br>
+AC 220V / 50Hz<br><br>
+
+<b>Pemakaian Daya</b><br>
+250W (Heater) & 75W (Cooler)
+
+</div>
+
+</div>
+
+
+<!-- SHOWCASE -->
+
+<div class="card">
+
+<img src="maspion_showcase-maspion-usg-180-nd-kulkas-display-kaca-minuman-usg-180nd_full03.webp">
+
+<h3>Showcase Cooler</h3>
+
+<div class="price">Sewa Showcase</div>
+
+<a class="btn" onclick="toggleSpec('showcaseSpec')">
+Lihat Spesifikasi
+</a>
+
+<div id="showcaseSpec" class="spec">
+
+<b>Kapasitas</b><br>
+180 Liter<br><br>
+
+<b>Lampu</b><br>
+LED Interior<br><br>
+
+<b>Dilengkapi</b><br>
+Kunci Pengaman<br><br>
+
+<b>Voltage</b><br>
+220 V / 50 Hz<br><br>
+
+<b>Power</b><br>
+145 Watt<br><br>
+
+<b>Refrigerant</b><br>
+R-134a / 130 Gr<br><br>
+
+<b>Berat</b><br>
+43 Kg<br><br>
+
+<b>Dimensi</b><br>
+53.5 cm x 44.5 cm x 142 cm
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>Hubungi Kami</h2>
+
+<p>WhatsApp : <b>08112761001</b></p>
+
+<p>Instagram : @airminumpelangi</p>
+
+<p>
+Jalan Diponegoro No.263A, Ungaran Barat,
+Semarang
+</p>
+
+<div class="linktree">
+<a href="https://linktr.ee/airminumpelangi" target="_blank">
+Lihat Semua Link Kami
+</a>
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 CV Tirta Makmur</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/628112761001" target="_blank">
+Chat WhatsApp
+</a>
+
+</body>
+</html>
